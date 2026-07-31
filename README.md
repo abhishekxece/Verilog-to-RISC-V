@@ -1,80 +1,87 @@
+<div align="center">
+
 # ⚡ Verilog-to-RISC-V
 
-A hands-on RTL and digital design challenge — from basic logic gates to a 5-stage pipelined RISC-V processor and SoC concepts.
+### A hands-on RTL design journey — from basic logic gates to RISC-V processors and SoC architecture
 
-**Verilog RTL Progress** · **Icarus Verilog** · **GTKWave** · **Yosys**
+[![Verilog](https://img.shields.io/badge/HDL-Verilog-1f425f?style=for-the-badge)](https://www.verilog.com/)
+[![Icarus Verilog](https://img.shields.io/badge/Simulation-Icarus%20Verilog-blue?style=for-the-badge)](https://steveicarus.github.io/iverilog/)
+[![GTKWave](https://img.shields.io/badge/Waveform-GTKWave-orange?style=for-the-badge)](https://gtkwave.sourceforge.net/)
+![Progress](https://img.shields.io/badge/Progress-Day%2001%20%2F%2015-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
+
+</div>
+
+---
 
 ## 📌 About This Repo
 
-This repository documents my hands-on journey of learning digital hardware design and RTL development using Verilog HDL, progressing from basic combinational logic to processor architecture and RISC-V based SoC design.
+This repository documents my hands-on journey of learning **Verilog HDL, RTL design, digital hardware architecture, processor design, and VLSI fundamentals**, progressing from basic digital logic to **RISC-V processor and SoC concepts**.
 
-Each project focuses on one practical digital design concept. The goal is not just to write Verilog code, but to understand how RTL describes hardware, how designs are simulated and verified, and how individual modules are eventually integrated into larger digital systems.
+Each day focuses on **one practical digital design concept** and its implementation in Verilog. The objective is not just to write code, but to understand how RTL describes hardware, how designs are simulated, how waveforms are analyzed, and how individual hardware modules are eventually integrated into larger systems.
 
-The journey progresses from fundamental digital logic through sequential circuits, FSMs, memories and communication protocols, and finally toward RISC-V processor design, pipelining, verification and SoC architecture.
+> 💡 Every design is implemented and verified through simulation wherever applicable, with Verilog source files, testbenches, documentation, and waveform analysis included as the project progresses.
 
-Every design is implemented, simulated and verified as part of the learning process.
+---
 
 ## 🚀 Progress Tracker
 
-| Day | Project             | Core Skills Covered                                     | Status |
-| --- | ------------------- | ------------------------------------------------------- | ------ |
-| 01  | AND Gate            | Basic RTL, Continuous Assignment, Testbench, Simulation | ✅      |
-| 02  | Adders              | Half Adder, Full Adder, Combinational RTL               | ⬜      |
-| 03  | Multiplexers        | 2:1 & 4:1 MUX, Selection Logic                          | ⬜      |
-| 04  | Decoder & Encoder   | Combinational Logic, Encoders, Decoders                 | ⬜      |
-| 05  | 4-bit ALU           | Arithmetic & Logic Operations, Control Signals          | ⬜      |
-| 06  | Flip-Flops          | D, SR, JK & T Flip-Flops, Sequential Logic              | ⬜      |
-| 07  | Counters            | Up, Down & Mod-10 Counters                              | ⬜      |
-| 08  | Shift Registers     | SISO, SIPO, PISO & PIPO                                 | ⬜      |
-| 09  | FSM                 | Traffic Light Controller, State Machines                | ⬜      |
-| 10  | Register File       | 32×32-bit Registers, Read/Write Ports, x0               | ⬜      |
-| 11  | RISC-V Basics       | ISA, RV32I, Instructions, Datapath                      | ⬜      |
-| 12  | Single-Cycle RISC-V | PC, Decoder, ALU, Memory, Write Back                    | ⬜      |
-| 13  | 5-Stage RISC-V      | IF, ID, EX, MEM, WB, Pipeline Registers                 | ⬜      |
-| 14  | Pipeline Hazards    | RAW Hazards, Forwarding, Stalling, Flushing             | ⬜      |
-| 15  | RISC-V SoC          | CPU, Memory, Peripherals, APB & Integration             | ⬜      |
+| Day | Project                          | Core Skills Covered                                      | Status |
+| :-: | -------------------------------- | -------------------------------------------------------- | :----: |
+|  01 | AND Gate                         | Basic RTL, Continuous Assignment, Testbench, Simulation  |    ✅   |
+|  02 | Adders                           | Half Adder, Full Adder, Combinational RTL                |    ⬜   |
+|  03 | Multiplexers                     | 2:1 & 4:1 MUX, Selection Logic                           |    ⬜   |
+|  04 | Decoder & Encoder                | Decoder, Encoder, Combinational Logic                    |    ⬜   |
+|  05 | 4-bit ALU                        | Arithmetic & Logic Operations, Control Signals           |    ⬜   |
+|  06 | Flip-Flops                       | D, SR, JK & T Flip-Flops, Sequential Logic               |    ⬜   |
+|  07 | Counters                         | Up, Down & Mod-10 Counters                               |    ⬜   |
+|  08 | Shift Registers                  | SISO, SIPO, PISO & PIPO                                  |    ⬜   |
+|  09 | Traffic Light FSM                | Finite State Machines, Sequential Control                |    ⬜   |
+|  10 | Sequence Detector                | FSM Design, Pattern Detection                            |    ⬜   |
+|  11 | UART Transmitter                 | Serial Communication, Timing, FSM                        |    ⬜   |
+|  12 | UART Receiver                    | Serial Reception, Sampling, FSM                          |    ⬜   |
+|  13 | Single-Port RAM                  | Memory Design, Read/Write Control                        |    ⬜   |
+|  14 | SPI Master                       | SPI Protocol, Serial Communication                       |    ⬜   |
+|  15 | RISC-V / Digital System Capstone | RTL Integration, Processor Concepts, System Architecture |    ⬜   |
 
 **Legend:** ✅ Complete · 🔄 In Progress · ⬜ Planned
 
+---
+
 ## 🎯 Skills I'm Building
 
-**Digital Logic** · **Verilog HDL** · **RTL Design** · **Sequential Logic** · **FSMs** · **Memory Design** · **UART** · **SPI** · **RISC-V** · **Processor Architecture** · **Pipelining** · **Verification** · **SoC Design** · **APB** · **ASIC Flow**
+<div align="left">
 
-By the end of this journey, the project will cover the fundamental RTL concepts required to progress toward digital VLSI and processor design.
+![Verilog](https://img.shields.io/badge/Verilog%20HDL-RTL%20Design-4B8BBE?style=flat-square)
+![Digital Logic](https://img.shields.io/badge/Digital%20Logic-Design-4B8BBE?style=flat-square)
+![RTL](https://img.shields.io/badge/RTL-Design-4B8BBE?style=flat-square)
+![FSM](https://img.shields.io/badge/FSM-State%20Machines-4B8BBE?style=flat-square)
+![Memory](https://img.shields.io/badge/Memory-RAM%20Design-4B8BBE?style=flat-square)
+![UART](https://img.shields.io/badge/UART-Communication-4B8BBE?style=flat-square)
+![SPI](https://img.shields.io/badge/SPI-Communication-4B8BBE?style=flat-square)
+![RISC-V](https://img.shields.io/badge/RISC--V-Processor%20Design-4B8BBE?style=flat-square)
+![Verification](https://img.shields.io/badge/RTL-Verification-4B8BBE?style=flat-square)
+![SoC](https://img.shields.io/badge/SoC-System%20Architecture-4B8BBE?style=flat-square)
 
-### Foundational Digital Design
+</div>
 
-Logic gates, multiplexers, decoders, encoders, adders, ALUs, flip-flops, registers and counters.
+The project progressively develops practical understanding of:
 
-### Sequential & Control Logic
+* **Digital Logic** — gates, adders, multiplexers, decoders and encoders
+* **Combinational RTL** — logic equations, arithmetic units and ALU design
+* **Sequential RTL** — flip-flops, counters and shift registers
+* **FSM Design** — state machines, controllers and sequence detection
+* **Memory Design** — RAM structures and read/write control
+* **Communication Protocols** — UART TX/RX and SPI
+* **RTL Verification** — testbenches, simulation and waveform analysis
+* **Processor Design** — datapath, control logic and RISC-V architecture
+* **SoC Concepts** — processor, memory and peripheral integration
 
-Finite State Machines, traffic-light controllers, sequence/control logic and synchronous digital systems.
+---
 
-### Memory & Communication
+## 🧪 RTL Verification Workflow
 
-Register files, RAM, UART transmission/reception and SPI communication concepts.
-
-### Processor Architecture
-
-RISC-V ISA, instruction formats, datapath design, control logic, register files, instruction memory and data memory.
-
-### Pipelined Processor Design
-
-5-stage pipeline architecture:
-
-`IF → ID → EX → MEM → WB`
-
-Pipeline registers, data hazards, RAW hazards, forwarding, stalls and control hazards.
-
-### SoC & VLSI Concepts
-
-CPU and peripheral integration, memory-mapped I/O, APB communication and the basic RTL-to-ASIC design flow.
-
-## 🧪 Verification Workflow
-
-Each RTL module is tested using a dedicated Verilog testbench.
-
-The basic workflow is:
+Every design follows a practical hardware-development workflow:
 
 ```text
 RTL Design
@@ -92,18 +99,75 @@ GTKWave
 Functional Verification
 ```
 
-The objective is to understand not only whether the code works, but why the generated hardware behaves as observed in simulation.
+The purpose is to understand both the **RTL implementation** and the resulting **hardware behavior in simulation**.
+
+For example, Day 01 follows:
+
+```text
+and_gate.v
+     ↓
+and_gate_tb.v
+     ↓
+iverilog
+     ↓
+vvp
+     ↓
+and_gate.vcd
+     ↓
+GTKWave
+```
+
+---
 
 ## 🛠️ Tools Used
 
-* **Verilog HDL** — RTL hardware description
-* **Icarus Verilog** — Compilation and simulation
-* **GTKWave** — Waveform analysis
-* **Yosys** — RTL synthesis
-* **VS Code** — Development environment
-* **Git & GitHub** — Version control
+| Tool               | Purpose                    |
+| ------------------ | -------------------------- |
+| **Verilog HDL**    | RTL hardware description   |
+| **Icarus Verilog** | Compilation and simulation |
+| **GTKWave**        | Waveform analysis          |
+| **VS Code**        | RTL development            |
+| **Git & GitHub**   | Version control            |
 
-## 🗂️ Repository Structure
+Additional tools will be introduced as the project progresses toward processor and VLSI-oriented design.
+
+---
+
+## 📚 Learning Roadmap
+
+```text
+Digital Logic
+      ↓
+Verilog HDL
+      ↓
+Combinational RTL
+      ↓
+Sequential RTL
+      ↓
+FSM Design
+      ↓
+Memory Design
+      ↓
+UART / SPI
+      ↓
+RTL Verification
+      ↓
+RISC-V Architecture
+      ↓
+Processor Datapath
+      ↓
+Pipeline Architecture
+      ↓
+SoC Integration
+      ↓
+APB / Peripheral Interfaces
+      ↓
+ASIC Design Flow
+```
+
+---
+
+## 🗂️ Repo Structure
 
 ```text
 Verilog-to-RISC-V/
@@ -122,58 +186,26 @@ Verilog-to-RISC-V/
 ├── Day07_Counters/
 ├── Day08_ShiftRegisters/
 ├── Day09_FSM/
-├── Day10_Register_File/
-├── Day11_RISC_V_Basics/
-├── Day12_Single_Cycle_RISC_V/
-├── Day13_5_Stage_RISC_V/
-├── Day14_Pipeline_Hazards/
-├── Day15_RISC_V_SoC/
+├── Day10_SequenceDetector/
+├── Day11_UART_TX/
+├── Day12_UART_RX/
+├── Day13_RAM/
+├── Day14_SPI/
+├── Day15_RISC_V_Capstone/
 │
-├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
-Each project folder contains the relevant RTL source files, testbench, documentation and simulation-related material where appropriate.
+Each project folder contains the RTL source files, testbench, documentation and relevant simulation material.
 
-## 📚 Learning Roadmap
-
-```text
-Digital Logic
-      ↓
-Verilog HDL
-      ↓
-RTL Design
-      ↓
-Combinational Logic
-      ↓
-Sequential Logic
-      ↓
-FSM & Memory
-      ↓
-Communication Protocols
-      ↓
-RISC-V ISA
-      ↓
-Single-Cycle Processor
-      ↓
-5-Stage Pipeline
-      ↓
-Hazard Handling
-      ↓
-Verification
-      ↓
-SoC Architecture
-      ↓
-APB Peripherals
-      ↓
-ASIC Design Flow
-```
+---
 
 ## 🔬 VLSI Direction
 
-The long-term objective of this repository is to build a foundation for practical digital VLSI work.
+This project is designed to build a foundation for **digital VLSI and RTL engineering**.
 
-The concepts explored here connect to a typical ASIC development flow:
+The concepts learned through the projects connect to larger hardware-development workflows:
 
 ```text
 RTL Design
@@ -201,26 +233,37 @@ GDSII
 Tapeout
 ```
 
-The repository will focus primarily on RTL design, verification and processor architecture while building conceptual understanding of the later ASIC stages.
-
-## 🏆 Final Goal
-
-The final objective is to progress from writing simple Verilog modules to understanding and implementing the fundamental architecture of a RISC-V based digital system.
-
-The project emphasizes:
-
-**Learn → Design → Simulate → Verify → Integrate → Understand**
-
-This repository is a practical record of that journey.
-
-## 👨‍💻 Author
-
-**Abhishek Mohammad**
-
-Electronics & Communication Engineering
-
-NIT Jalandhar
+The initial focus is on **RTL design, simulation, verification and processor architecture**, while gradually building an understanding of the complete ASIC design flow.
 
 ---
 
-⭐ This repository is a continuous learning project. More modules, processor components and SoC concepts will be added as the journey progresses.
+## 🏆 Final Goal
+
+The long-term goal of this repository is to progress from basic Verilog modules to understanding and implementing the building blocks of a **RISC-V based digital system**.
+
+The journey focuses on:
+
+**Learn → Design → Simulate → Verify → Integrate → Build**
+
+By completing this roadmap, I aim to develop a strong practical foundation in **RTL design, digital VLSI, processor architecture, verification and SoC development**.
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+### **Abhishek Mohammad**
+
+**Electronics & Communication Engineering**
+**NIT Jalandhar**
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Building digital hardware one RTL module at a time.
+
+</div>

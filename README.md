@@ -7,7 +7,7 @@
 [![Verilog](https://img.shields.io/badge/HDL-Verilog-1f425f?style=for-the-badge)](https://www.verilog.com/)
 [![Icarus Verilog](https://img.shields.io/badge/Simulation-Icarus%20Verilog-blue?style=for-the-badge)](https://steveicarus.github.io/iverilog/)
 [![GTKWave](https://img.shields.io/badge/Waveform-GTKWave-orange?style=for-the-badge)](https://gtkwave.sourceforge.net/)
-![Progress](https://img.shields.io/badge/Progress-Day%2001%20%2F%2015-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-Day%2002%20%2F%2015-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 
 </div>
@@ -29,7 +29,7 @@ Each day focuses on **one practical digital design concept** and its implementat
 | Day | Project                          | Core Skills Covered                                      | Status |
 | :-: | -------------------------------- | -------------------------------------------------------- | :----: |
 |  01 | AND Gate                         | Basic RTL, Continuous Assignment, Testbench, Simulation  |    ✅   |
-|  02 | Adders                           | Half Adder, Full Adder, Combinational RTL                |    ⬜   |
+|  02 | Adders                           | Half Adder, Full Adder, Combinational RTL                |    ✅   |
 |  03 | Multiplexers                     | 2:1 & 4:1 MUX, Selection Logic                           |    ⬜   |
 |  04 | Decoder & Encoder                | Decoder, Encoder, Combinational Logic                    |    ⬜   |
 |  05 | 4-bit ALU                        | Arithmetic & Logic Operations, Control Signals           |    ⬜   |

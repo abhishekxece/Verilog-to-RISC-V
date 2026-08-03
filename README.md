@@ -30,7 +30,7 @@ Each day focuses on **one practical digital design concept** and its implementat
 | :-: | -------------------------------- | -------------------------------------------------------- | :----: |
 |  01 | AND Gate                         | Basic RTL, Continuous Assignment, Testbench, Simulation  |    ✅   |
 |  02 | Adders                           | Half Adder, Full Adder, Combinational RTL                |    ✅   |
-|  03 | Multiplexers                     | 2:1 & 4:1 MUX, Selection Logic                           |    ⬜   |
+|  03 | Multiplexers                     | 2:1 & 4:1 MUX, Selection Logic                           |    ✅   |
 |  04 | Decoder & Encoder                | Decoder, Encoder, Combinational Logic                    |    ⬜   |
 |  05 | 4-bit ALU                        | Arithmetic & Logic Operations, Control Signals           |    ⬜   |
 |  06 | Flip-Flops                       | D, SR, JK & T Flip-Flops, Sequential Logic               |    ⬜   |

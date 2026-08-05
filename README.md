@@ -7,7 +7,7 @@
 [![Verilog](https://img.shields.io/badge/HDL-Verilog-1f425f?style=for-the-badge)](https://www.verilog.com/)
 [![Icarus Verilog](https://img.shields.io/badge/Simulation-Icarus%20Verilog-blue?style=for-the-badge)](https://steveicarus.github.io/iverilog/)
 [![GTKWave](https://img.shields.io/badge/Waveform-GTKWave-orange?style=for-the-badge)](https://gtkwave.sourceforge.net/)
-![Progress](https://img.shields.io/badge/Progress-Day%2003%20%2F%2015-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-Day%2004%20%2F%2015-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 
 </div>
@@ -31,7 +31,7 @@ Each day focuses on **one practical digital design concept** and its implementat
 |  01 | AND Gate                         | Basic RTL, Continuous Assignment, Testbench, Simulation  |    ✅   |
 |  02 | Adders                           | Half Adder, Full Adder, Combinational RTL                |    ✅   |
 |  03 | Multiplexers                     | 2:1 & 4:1 MUX, Selection Logic                           |    ✅   |
-|  04 | Decoder & Encoder                | Decoder, Encoder, Combinational Logic                    |    ⬜   |
+|  04 | Decoder & Encoder                | Decoder, Encoder, Combinational Logic                    |    ✅   |
 |  05 | 4-bit ALU                        | Arithmetic & Logic Operations, Control Signals           |    ⬜   |
 |  06 | Flip-Flops                       | D, SR, JK & T Flip-Flops, Sequential Logic               |    ⬜   |
 |  07 | Counters                         | Up, Down & Mod-10 Counters                               |    ⬜   |

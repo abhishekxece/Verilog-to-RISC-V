@@ -32,7 +32,7 @@ Each day focuses on **one practical digital design concept** and its implementat
 |  02 | Adders                           | Half Adder, Full Adder, Combinational RTL                |    ✅   |
 |  03 | Multiplexers                     | 2:1 & 4:1 MUX, Selection Logic                           |    ✅   |
 |  04 | Decoder & Encoder                | Decoder, Encoder, Combinational Logic                    |    ✅   |
-|  05 | 4-bit ALU                        | Arithmetic & Logic Operations, Control Signals           |    ✅   |
+|  05 | 4-bit ALU                        | Arithmetic & Logic Operations, Control Signals           |    ⬜   |
 |  06 | Flip-Flops                       | D, SR, JK & T Flip-Flops, Sequential Logic               |    ⬜   |
 |  07 | Counters                         | Up, Down & Mod-10 Counters                               |    ⬜   |
 |  08 | Shift Registers                  | SISO, SIPO, PISO & PIPO                                  |    ⬜   |

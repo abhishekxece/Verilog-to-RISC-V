@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 About This Repo
+## 📌 About This Repository
 
 This repository documents my hands-on journey of learning **Verilog HDL, RTL design, digital hardware architecture, processor design, and VLSI fundamentals**, progressing from basic digital logic to **RISC-V processor and SoC concepts**.
 

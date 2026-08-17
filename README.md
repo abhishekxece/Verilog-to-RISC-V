@@ -37,7 +37,7 @@ Each day focuses on **one practical digital design concept** and its implementat
 |  07 | Counters                         | Up, Down & Mod-10 Counters                               |    ✅   |
 |  08 | Shift Registers                  | SISO, SIPO, PISO & PIPO                                  |    ✅   |
 |  09 | Traffic Light FSM                | Finite State Machines, Sequential Control                |    ✅   |
-|  10 | Sequence Detector                | FSM Design, Pattern Detection                            |    ✅   |
+|  10 | Sequence Detector                | FSM Design, Pattern Detection                            |    ⬜   |
 |  11 | UART Transmitter                 | Serial Communication, Timing, FSM                        |    ⬜   |
 |  12 | UART Receiver                    | Serial Reception, Sampling, FSM                          |    ⬜   |
 |  13 | Single-Port RAM                  | Memory Design, Read/Write Control                        |    ⬜   |

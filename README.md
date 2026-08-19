@@ -38,7 +38,7 @@ Each day focuses on **one practical digital design concept** and its implementat
 |  08 | Shift Registers                  | SISO, SIPO, PISO & PIPO                                  |    ✅   |
 |  09 | Traffic Light FSM                | Finite State Machines, Sequential Control                |    ✅   |
 |  10 | Sequence Detector                | FSM Design, Pattern Detection                            |    ✅   |
-|  11 | UART Transmitter                 | Serial Communication, Timing, FSM                        |    ⬜   |
+|  11 | UART Transmitter                 | Serial Communication, Timing, FSM                        |    ✅   |
 |  12 | UART Receiver                    | Serial Reception, Sampling, FSM                          |    ⬜   |
 |  13 | Single-Port RAM                  | Memory Design, Read/Write Control                        |    ⬜   |
 |  14 | SPI Master                       | SPI Protocol, Serial Communication                       |    ⬜   |

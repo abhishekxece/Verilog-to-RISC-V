@@ -7,7 +7,7 @@
 [![Verilog](https://img.shields.io/badge/HDL-Verilog-1f425f?style=for-the-badge)](https://www.verilog.com/)
 [![Icarus Verilog](https://img.shields.io/badge/Simulation-Icarus%20Verilog-blue?style=for-the-badge)](https://steveicarus.github.io/iverilog/)
 [![GTKWave](https://img.shields.io/badge/Waveform-GTKWave-orange?style=for-the-badge)](https://gtkwave.sourceforge.net/)
-![Progress](https://img.shields.io/badge/Progress-Day%2011%20%2F%2015-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-Day%2012%20%2F%2015-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 
 </div>

@@ -40,7 +40,7 @@ Each day focuses on **one practical digital design concept** and its implementat
 |  10 | Sequence Detector                | FSM Design, Pattern Detection                            |    ✅   |
 |  11 | UART Transmitter                 | Serial Communication, Timing, FSM                        |    ✅   |
 |  12 | UART Receiver                    | Serial Reception, Sampling, FSM                          |    ✅   |
-|  13 | Single-Port RAM                  | Memory Design, Read/Write Control                        |    ⬜   |
+|  13 | Single-Port RAM                  | Memory Design, Read/Write Control                        |    ✅   |
 |  14 | SPI Master                       | SPI Protocol, Serial Communication                       |    ⬜   |
 |  15 | RISC-V / Digital System Capstone | RTL Integration, Processor Concepts, System Architecture |    ⬜   |
 
